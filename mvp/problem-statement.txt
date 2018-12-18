@@ -1,0 +1,35 @@
+*PROJECT NAME: I-WAITER*
+
+*Problem Statement*
+1.hotel customers are unable at times to note their allergies and
+ intolerances when ordering meals
+2.long waiting time before food is delivered.
+
+
+*Solution*
+
+• to create a web application that allows for accountability, eficiency,inclusion of customer allergies
+and intolerances during food order process.Also to cut the time between food order
+and food delivery by half.*Nb:in the hotel industry*
+
+
+*Features to implement*
+
+1.user able to access  menu
+2.user is able to order
+3.program is able to calculate total order of selected foods
+4.user can be able to sign up or login.
+
+*Tools and libraries to use*
+e.g
+• HTML
+• CSS
+• JS
+
+
+
+mugo ..(login and sign up)
+menu functionalities
+wahome..menu functionalities (display menu,option add allergies,display receipt,)
+kevo..menu(display payment method,success message...on press okay return to homepage)
+....homepage(slideshow,about,parallax,navbar)
