@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <img src="SSR-Trans-Logo.png" class="logo" alt="SSR Logo">
+      <nav>
+        <ul>
+          <li> <a href="#"> Home</a> </li>
+          <li> <a href="#">Menu</a> </li>
+          <li> <a href="#">About</a> </li>
+          <li> <a href="#">Contact</a> </li>
+          <li> <a href="#">Blog</a> </li>
+          <li> <a href="login.html">Log In</a> </li>
+          <li> <a href="signup.html">Sign Up</a> </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <div class="loginbox">
+    <img class="avatar" src="download.jpeg" alt="">
+    <h2>Hey, good to see you!</h2>
+    <h3>Sign Up to get going.</h3>
+    <?php include 'config.php';?>
+    <div class="alert alert-error"><?= $_SESSION['message']?></div>
+    <form class="formz" action="config.php" method="post">
+      <input type="text" placeholder="First Name" name="" value="" required>
+      <input type="text" placeholder="Last Name" name="" value="" required>
+      <input type="email" placeholder="E-mail" name="" value="" required>
+      <input type="tel" placeholder="Phone" name="" value="" required>
+      <input type="password" placeholder="Password" name="" value="" required>
+      <input type="password" placeholder="Confirm Password" name="" value="" required>
+      <button type="button" name="button">SIGNUP</button><br><br>
+      <p>Already have an account?<a href="#">Login</a></p><br>
+    </form>
+
+  </div>
+  <script type="text/javascript" src="jquery.js"></script>
+</body>
+
+</html>
