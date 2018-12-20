@@ -1,4 +1,31 @@
-h1{
-  color:red;
-  background-color: black;
+body{
+  background-image: url(../image/sink.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color:#f5f5f5;
+}
+
+#intro{
+  font-size: 40px;
+  position: absolute;
+  top: 30%;
+  left: 35%;
+  font-family: monospace;
+  color: white
+}
+
+#cardspg{
+  position:absolute;
+  top: 50%;
+
+}
+.card{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
+}
+.card:hover {
+  cursor: pointer;
+  background-color: #ef6c00;
+  color: #000;
 }
